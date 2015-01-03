@@ -1,0 +1,17 @@
+Some test cases for the cave exploration program
+
+news=completely rolled up
+
+enws=not rolled up
+
+ssneewwn=rolled up
+
+snwenswneswnesws=not rolled up
+
+snwesnwenswnsenswesnwesn=rolled up
+
+n wes=incorrect input
+
+nawesnwsnewnesnwensnwenswnesnwnesnwn=incorrect input
+
+the stack checks to see if a person is back at the entrance of a cave after exploring it.  news works and enws does not because while the person has moved in a circle, they may be at a higher or lower elevation than from where they started if it was not a perfect backtrack.  The program tests whether there is a guarantee that a rope is completely rolled up after exploring a cave.
